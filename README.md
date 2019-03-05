@@ -34,4 +34,13 @@ POST Body :<br/>
 Response :<br/>
 Successful Login : 200 OK with JWT Token as "Authorization" header.<br/>
 Login Failure : 403 Unauthorized<br/>
+<br/>
+# ---------------------------------------------------------------------<br/>
 
+# Database Configuration<br/>
+Modify the database credentials in "resources/application.properties"<br/>
+
+spring.jpa.hibernate.ddl-auto=update
+spring.datasource.url= "Database URL" (e.g.: jdbc:mysql://localhost:3306/puc-assignment)
+spring.datasource.username= "Database Username"
+spring.datasource.password= "Database Password"
