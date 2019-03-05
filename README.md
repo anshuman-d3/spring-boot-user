@@ -1,7 +1,7 @@
 # spring-boot-user
 Spring Boot user login and registration module with JWT Authentication
 # ---------------------------------------------------------------------<br/>
-<br/>
+
 # User Module <br/>
 Register :<br/>
 <br/>
