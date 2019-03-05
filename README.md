@@ -1,6 +1,6 @@
 # spring-boot-user
 Spring Boot user login and registration module with JWT Authentication
-# ---------------------------------------------------------------------------------------------------------------------------------------------
+# ---------------------------------------------------------------------
 
 # User Module
 Register :
@@ -20,7 +20,7 @@ Response :
 Successful Registration : 200 OK
 Registration Failure : 500 Server Error (in case of user existed with same username)
 
-# ---------------------------------------------------------------------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------------
 
 Login :
 API Endpoint : "base_url"/login
