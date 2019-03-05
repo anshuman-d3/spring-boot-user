@@ -39,8 +39,8 @@ Login Failure : 403 Unauthorized<br/>
 
 # Database Configuration<br/>
 Modify the database credentials in "resources/application.properties"<br/>
-
-spring.jpa.hibernate.ddl-auto=update
-spring.datasource.url= "Database URL" (e.g.: jdbc:mysql://localhost:3306/puc-assignment)
-spring.datasource.username= "Database Username"
-spring.datasource.password= "Database Password"
+<br/>
+spring.jpa.hibernate.ddl-auto=update<br/>
+spring.datasource.url= "Database URL" (e.g.: jdbc:mysql://localhost:3306/puc-assignment)<br/>
+spring.datasource.username= "Database Username"<br/>
+spring.datasource.password= "Database Password"<br/>
