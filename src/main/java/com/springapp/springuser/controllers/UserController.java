@@ -20,10 +20,15 @@ public class UserController {
     }
 
     @PostMapping("/register")
-    public void signUp(@RequestBody ApplicationUser applicationUser) {
+    public ApplicationUser signUp(@RequestBody ApplicationUser applicationUser) {
         System.out.println("sign-up post method");
         applicationUser.setPassword(bCryptPasswordEncoder.encode(applicationUser.getPassword()));
-        userRepository.save(applicationUser);
-        System.out.println("saving applicationUser object successful");
+        try{
+            return userRepository.save(applicationUser);
+        }
+        catch (Exception e){
+            return null;
+        }
+//        System.out.println("saving applicationUser object successful");
     }
 }
